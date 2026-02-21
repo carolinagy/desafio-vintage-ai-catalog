@@ -1,0 +1,44 @@
+.app-container {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 0 10px black;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #00bcd4;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px cyan;
+}
